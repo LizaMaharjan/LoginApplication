@@ -7,7 +7,7 @@
 </c:if>
 <div class="wrapper">
     <div class="container">
-        <div class="card" data-aos="flip-left">
+        <div class="card" data-aos="flip-left" data-aos-duration="1000">
             <div class="heading text-center mb-5">
                 <i class="fa-solid fa-fingerprint fa-2x"></i>
                 <h3 class="text-uppercase">Login Application</h3>

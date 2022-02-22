@@ -4,9 +4,10 @@
 }
 
 body {
-    background-image: linear-gradient(to right top, #d16ba5,#D16BA5,#D16BA5, #c777b9,
-                #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff,
-                #46eefa, #5ffbf1);
+    /*background-image: linear-gradient(to right top, #d16ba5,#D16BA5,#D16BA5, #c777b9,*/
+    /*            #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff,*/
+    /*            #46eefa, #5ffbf1);*/
+    background-image: url('https://external-preview.redd.it/ZIrWK2tOf_72YVnwjqyMGiiEiU3PVLNjPyObWDq1gd0.jpg?auto=webp&s=c7922a2f88dea4d22bdaa17a8fcaad3a62661070');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -71,6 +72,11 @@ body {
     border: 0;
     display: inline-block;
     background-color: transparent;
+    color: white;
+}
+
+.form input::placeholder {
+    color: white;
 }
 
 .form input:focus,
